@@ -1,10 +1,10 @@
 # Stock News Alert
 
-Bir hisse senedinin günlük kapanış fiyatındaki %5'ten büyük değişimleri tespit edip, ilgili şirketle alakalı son haberleri e-posta ile bildiren script.
+Detects when a stock's closing price changes by more than 5% in a day and emails the latest related news articles about the company.
 
-**Kullanılanlar:** Python, Alpha Vantage API, News API, SMTP
+**Tech stack:** Python, Alpha Vantage API, News API, SMTP
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 pip install -r requirements.txt
 cp .env.example .env

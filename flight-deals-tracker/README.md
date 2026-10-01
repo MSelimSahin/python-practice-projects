@@ -1,17 +1,17 @@
 # Flight Deals Tracker
 
-Belirlenen hedef fiyatın altına düşen uçuşları Amadeus API üzerinden takip edip, Sheety API ile Google Sheets'te tutulan kullanıcı listesine e-posta bildirimi gönderen çok modüllü bir uygulama.
+A multi-module application that tracks flights below a target price via the Amadeus API and emails a list of users (stored in a Google Sheet via the Sheety API) when a deal is found.
 
-**Kullanılanlar:** Python, Amadeus API, Sheety API, SMTP
+**Tech stack:** Python, Amadeus API, Sheety API, SMTP
 
-**Dosya yapısı:**
-- `main.py` — ana akış
-- `data_manager.py` — Sheety API ile veri okuma/yazma
-- `flight_search.py` — Amadeus API ile uçuş arama
-- `flight_data.py` — uçuş verisi modeli
-- `notification_manager.py` — e-posta bildirimi
+**File structure:**
+- `main.py` — main flow
+- `data_manager.py` — reads/writes data via the Sheety API
+- `flight_search.py` — searches flights via the Amadeus API
+- `flight_data.py` — flight data model
+- `notification_manager.py` — sends email notifications
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 pip install -r requirements.txt
 cp .env.example .env

@@ -1,10 +1,10 @@
 # NATO Alphabet Converter
 
-Girilen bir kelimeyi harf harf NATO fonetik alfabesine (Alpha, Bravo, Charlie...) çeviren konsol uygulaması.
+A console app that converts an input word into the NATO phonetic alphabet (Alpha, Bravo, Charlie...), letter by letter.
 
-**Kullanılanlar:** Python, CSV, Dictionaries, Pandas
+**Tech stack:** Python, CSV, Dictionaries, Pandas
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 python main.py
 ```

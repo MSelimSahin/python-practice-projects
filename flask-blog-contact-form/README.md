@@ -1,10 +1,10 @@
 # Flask Blog with Contact Form
 
-Flask ile geliştirilmiş, ziyaretçilerin mesaj gönderebileceği bir iletişim formu içeren basit blog uygulaması.
+A simple blog application built with Flask, including a contact form visitors can use to send messages.
 
-**Kullanılanlar:** Python, Flask, HTML/CSS
+**Tech stack:** Python, Flask, HTML/CSS
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 python main.py
 ```

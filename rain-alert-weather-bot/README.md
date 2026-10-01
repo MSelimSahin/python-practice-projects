@@ -1,12 +1,12 @@
 # Rain Alert Weather Bot
 
-OpenWeatherMap API'sinden önümüzdeki saatlerin hava durumu tahminini çeken ve yağmur ihtimali varsa e-posta ile uyarı gönderen basit bir otomasyon scripti.
+A simple automation script that fetches the hourly weather forecast from the OpenWeatherMap API and sends an email alert if rain is expected.
 
-**Kullanılanlar:** Python, `requests`, SMTP (Gmail), `python-dotenv`
+**Tech stack:** Python, `requests`, SMTP (Gmail), `python-dotenv`
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # kendi API anahtarını ve e-posta bilgilerini gir
+cp .env.example .env   # fill in your own API key and email credentials
 python main.py
 ```

@@ -1,10 +1,10 @@
 # Pomodoro Timer
 
-Pomodoro tekniğine göre çalışma ve mola sürelerini yöneten, görsel geri sayım ve tur takibi yapan masaüstü uygulaması.
+A desktop app that manages work and break intervals using the Pomodoro technique, with a visual countdown and round tracking.
 
-**Kullanılanlar:** Python, Tkinter
+**Tech stack:** Python, Tkinter
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 python main.py
 ```

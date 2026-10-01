@@ -1,10 +1,10 @@
 # Password Manager GUI
 
-Tkinter ile geliştirilmiş, rastgele güçlü şifre üretebilen ve site/e-posta/şifre bilgilerini yerel bir JSON dosyasında saklayan masaüstü uygulaması. Panoya kopyalama desteği içerir.
+A Tkinter desktop app that generates strong random passwords and stores website/email/password entries in a local JSON file. Includes clipboard copy support.
 
-**Kullanılanlar:** Python, Tkinter, JSON, `pyperclip`
+**Tech stack:** Python, Tkinter, JSON, `pyperclip`
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 pip install -r requirements.txt
 python main.py

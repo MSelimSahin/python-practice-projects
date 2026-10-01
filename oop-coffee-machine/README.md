@@ -1,10 +1,10 @@
 # OOP Coffee Machine
 
-Gerçek bir kahve makinesinin (kaynak yönetimi, para işlemleri, menü) nesne yönelimli programlama prensipleriyle simüle edildiği konsol uygulaması.
+A console app that simulates a real coffee machine (resource management, payment handling, menu) using object-oriented programming principles.
 
-**Kullanılanlar:** Python, OOP (sınıflar, kapsülleme)
+**Tech stack:** Python, OOP (classes, encapsulation)
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 python main.py
 ```

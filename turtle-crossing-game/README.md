@@ -1,10 +1,10 @@
 # Turtle Crossing Game
 
-Python'un `turtle` grafik kütüphanesiyle geliştirilmiş, arabalardan kaçarak karşıya geçmeye çalıştığınız klasik bir arcade oyunu.
+A classic arcade game built with Python's `turtle` graphics library, where you dodge cars to cross the road.
 
-**Kullanılanlar:** Python, Turtle, OOP
+**Tech stack:** Python, Turtle, OOP
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 python main.py
 ```

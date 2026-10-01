@@ -1,10 +1,10 @@
 # Quiz Game
 
-Open Trivia Database API'sinden doğru/yanlış sorular çekip kullanıcıyı test eden, puanlama yapan bir bilgi yarışması uygulaması.
+A trivia quiz app that pulls true/false questions from the Open Trivia Database API, tracks the score, and tests the user's knowledge.
 
-**Kullanılanlar:** Python, REST API, OOP
+**Tech stack:** Python, REST API, OOP
 
-**Çalıştırma:**
+**Run it:**
 ```bash
 python main.py
 ```
